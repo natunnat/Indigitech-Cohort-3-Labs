@@ -1,0 +1,47 @@
+@charset "utf-8";
+body {
+  width: 80%;
+  min-width: 800px;
+  max-width: 1200px;
+  margin: auto;
+}
+#logo {
+  width: 75%;
+  float: left;
+}
+.vertical {
+  width: 25%;
+  float: left;
+
+  height: 100%;
+}
+
+header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.horizontal {
+  width: 100%;
+  float: clear;
+}
+.horizontal li {
+  float: left;
+  width: 12.5%;
+}
+
+section {
+  float: left;
+  width: 25%;
+}
+section img {
+  width: 150px;
+  height: 150px;
+}
+div {
+  width: 50%;
+  float: left;
+}
+footer {
+  clear: left;
+}

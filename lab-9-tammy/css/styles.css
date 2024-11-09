@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.vertical ul li {
+  padding: 7.1%;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: blanchedalmond;
+}
+main {
+}
+
+html {
+  background-color: burlywood;
+}
+.vertical {
+  background-color: cornflowerblue;
+}
+.horizontal {
+  background-color: darkblue;
+  padding: 3%;
+}
+
+nav ul li a {
+  color: white;
+}
+section {
+  padding: 3%;
+  color: cornflowerblue;
+}
+#leftAside aside,
+#rightAside aside {
+  padding: 7% 12%;
+}
+
+footer {
+  background-color: steelblue;
+  padding: 2.5%;
+  color: white;
+}
