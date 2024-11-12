@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+header {
+  font-size: 75%;
+}
+
+body {
+  min-width: 800px;
+  max-width: 1200px;
+  margin: auto;
+  border: 1px solid black;
+  font-family: sans-serif;
+  background-color: aquamarine;
+}
+table {
+  width: 100%;
+  font-size: 90%;
+  background-color: antiquewhite;
+  border: 5px solid blue;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+}
+
+thead {
+  background-color: lightskyblue;
+}
+thead tr {
+  height: 40px;
+}
+
+tbody {
+  background-color: antiquewhite;
+}
+tbody tr {
+  height: 60px;
+}
+
+.times {
+  background-color: burlywood;
+}
+tfoot {
+  background-color: lightskyblue;
+}
+
+tfoot tr {
+  height: 40px;
+}
+.days {
+  width: 16%;
+}
