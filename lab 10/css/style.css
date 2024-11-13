@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-header {
-  font-size: 75%;
-}
-
 body {
   min-width: 800px;
   max-width: 1200px;
@@ -11,6 +7,9 @@ body {
   border: 1px solid black;
   font-family: sans-serif;
   background-color: aquamarine;
+}
+header {
+  font-size: 75%;
 }
 table {
   width: 100%;
