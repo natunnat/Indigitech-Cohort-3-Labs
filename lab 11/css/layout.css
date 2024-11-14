@@ -1,1 +1,7 @@
-charset="utf-8"
+charset="utf-8";
+
+body {
+    min-width: 800px;
+    max-width: 1400px;
+  margin: auto;
+}
